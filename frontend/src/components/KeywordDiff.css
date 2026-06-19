@@ -1,0 +1,12 @@
+.keyword-diff { margin: 1.5rem 0; }
+.keyword-section { margin-bottom: 1rem; }
+.keyword-section h3 { font-size: 0.875rem; margin-bottom: 0.5rem; }
+.keyword-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.chip.present { background: #dcfce7; color: #166534; }
+.chip.missing { background: #fee2e2; color: #991b1b; }

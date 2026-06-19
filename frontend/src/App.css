@@ -1,0 +1,16 @@
+.app { min-height: 100vh; background: #f8fafc; }
+.header { background: #1e293b; color: white; padding: 1.5rem; text-align: center; }
+.main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.upload-section { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.analyze-btn { 
+  background: #3b82f6; color: white; padding: 0.75rem 2rem; 
+  border: none; border-radius: 0.5rem; font-size: 1rem; 
+  cursor: pointer; margin-top: 1rem; width: 100%;
+}
+.analyze-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.error { color: #ef4444; margin: 0.5rem 0; padding: 0.5rem; background: #fee2e2; border-radius: 0.25rem; }
+.results-section { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.back-btn { 
+  background: #64748b; color: white; padding: 0.5rem 1.5rem;
+  border: none; border-radius: 0.25rem; cursor: pointer; margin-top: 1rem;
+}
